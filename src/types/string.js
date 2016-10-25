@@ -67,3 +67,10 @@
 
  console.log('substr(8, -1): '   + test.substr(8, -1));
  console.log('substring(8, -1): ' + test.substring(8, -1));
+
+
+ console.log('alphABET'.toUpperCase()); // 'ALPHABET' tout en majuscule
+ console.log('alphABET'.toLowerCase()); // 'alphabet' tout en minuscule
+
+ var orig = '    test  test  '; //avant test des tab après des espaces // peu aussi supprimer des saut de ligne
+ console.log(orig.trim()); // 'test  test' supprime les espaces avant et après le text
