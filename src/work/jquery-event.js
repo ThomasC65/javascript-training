@@ -3,6 +3,7 @@
         clear('section');
 
         const contents=search(term);
+
         /*contents.forEach(function (content) {
          const node = document.createTextNode(content)
          document.querySelector('body').appendChild(node);
